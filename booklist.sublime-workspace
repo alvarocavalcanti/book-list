@@ -1,0 +1,590 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"renam",
+				"renameUrl"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"inpu",
+				"inputFile"
+			],
+			[
+				"in",
+				"inputFile"
+			],
+			[
+				"btn",
+				"btn_submit"
+			],
+			[
+				"succes",
+				"successfully"
+			],
+			[
+				"doc",
+				"docCount"
+			],
+			[
+				"uplo",
+				"uploadFiles"
+			],
+			[
+				"files",
+				"filesCounter"
+			],
+			[
+				"newUser",
+				"newUserUsername"
+			],
+			[
+				"valida",
+				"validateEmail"
+			],
+			[
+				"focus",
+				"focusout"
+			],
+			[
+				"u",
+				"username"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"proje",
+				"projectId"
+			],
+			[
+				"check",
+				"checklistid"
+			],
+			[
+				"project",
+				"projectId"
+			],
+			[
+				"us",
+				"users"
+			],
+			[
+				"pro",
+				"project_name"
+			],
+			[
+				"notify",
+				"notifyProjectUsers"
+			],
+			[
+				"mess",
+				"message"
+			],
+			[
+				"clientname",
+				"client_name"
+			],
+			[
+				"User",
+				"UserDAO"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fol",
+				"folder_id"
+			],
+			[
+				"ece",
+				"exec_result"
+			],
+			[
+				"clie",
+				"client_secret"
+			],
+			[
+				"clien",
+				"client_id"
+			],
+			[
+				"client",
+				"client_secret"
+			],
+			[
+				"client_",
+				"client_id"
+			],
+			[
+				"error",
+				"error_log"
+			],
+			[
+				"cur",
+				"curl_data"
+			],
+			[
+				"post",
+				"post_vars"
+			],
+			[
+				"head",
+				"header_details"
+			],
+			[
+				"geo",
+				"geocodeByAddressResults"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"ex",
+				"exists"
+			],
+			[
+				"message",
+				"messageFound"
+			],
+			[
+				"messa",
+				"messageNotFound"
+			],
+			[
+				"succe",
+				"success"
+			],
+			[
+				"Email",
+				"E-mail"
+			],
+			[
+				"displ",
+				"displayAlertAndSetFocus"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"new",
+				"newUsers"
+			],
+			[
+				"checklisq",
+				"checklistQuestions"
+			],
+			[
+				"checklis",
+				"checklistItems"
+			],
+			[
+				"users",
+				"users"
+			],
+			[
+				"execute",
+				"executedOk"
+			],
+			[
+				"jqu",
+				"jquery"
+			],
+			[
+				"docu",
+				"document"
+			],
+			[
+				"al",
+				"displayAlertAndSetFocus"
+			],
+			[
+				"newUserPassword",
+				"newUserPasswordConfirm"
+			],
+			[
+				"newUSer",
+				"newUserUsername"
+			],
+			[
+				"form",
+				"formNewUser"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"packain",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"syn php",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/acavalca/Dropbox/Mafua/Docs/Mafua Payments.txt",
+		"/Users/acavalca/Sites/intercorp/dao/checklist_dao.php",
+		"/Users/acavalca/Sites/intercorp/test/area_chklst_create.php",
+		"/Users/acavalca/Sites/intercorp/checklist_list.php",
+		"/Users/acavalca/Sites/intercorp/checklist_create.php",
+		"/Users/acavalca/Sites/intercorp/util/BoxCredentials.php",
+		"/Users/acavalca/Sites/intercorp/ws/user.php",
+		"/Users/acavalca/Sites/intercorp/dao/user_dao.php",
+		"/Users/acavalca/Sites/intercorp/dao/user_dao_test.php",
+		"/Users/acavalca/Sites/intercorp/dao/checklist_dao_test.php",
+		"/Users/acavalca/Sites/intercorp/dao/projects_dao.php",
+		"/Users/acavalca/Sites/intercorp/dao/project_dao_test.php",
+		"/Users/acavalca/Sites/intercorp/home.php",
+		"/Users/acavalca/Sites/intercorp/ws/checklist.php",
+		"/Users/acavalca/Sites/intercorp/dao/client_dao.php",
+		"/Users/acavalca/Sites/intercorp/box_credentials/credentials.txt",
+		"/Users/acavalca/Sites/intercorp/checklist_resolve.php",
+		"/Users/acavalca/Documents/box_credentials.sql",
+		"/private/etc/php.ini",
+		"/Users/acavalca/Sites/intercorp/gatekeeper.php",
+		"/Users/acavalca/Sites/intercorp/js/intercorp.common.js",
+		"/Users/acavalca/Sites/intercorp/db/intercorp_data.sql",
+		"/Users/acavalca/Sites/intercorp/db/intercorp.sql",
+		"/Users/acavalca/Sites/intercorp/js/bootstrap-filestyle.min.js",
+		"/Users/acavalca/Sites/intercorp/box_credentials/teste_string.php",
+		"/Users/acavalca/Sites/intercorp/box_credentials/poc.php",
+		"/Users/acavalca/Sites/intercorp/util/OAuthUtils.php",
+		"/Users/acavalca/Sites/intercorp/cfg/database.php",
+		"/Users/acavalca/Sites/intercorp/db/database_generation.sql",
+		"/Users/acavalca/Sites/intercorp/inc_header.php",
+		"/Users/acavalca/Sites/intercorp/yousendit/Authentication.php",
+		"/Users/acavalca/Sites/intercorp/index.php",
+		"/Users/acavalca/Sites/intercorp/php-sdk/src/library/temboo.box.php",
+		"/Users/acavalca/Sites/intercorp/inc_navbar.php",
+		"/Users/acavalca/Sites/intercorp/_navbar.php",
+		"/Users/acavalca/Sites/intercorp/phpInfo.php",
+		"/Users/acavalca/Sites/intercorp/home_old.php",
+		"/Users/acavalca/Sites/intercorp/js/intercorp-common.js",
+		"/Users/acavalca/Dropbox/TW/MyDevPairs.txt",
+		"/Users/acavalca/Sites/intercorp/checklist.php",
+		"/Users/acavalca/Sites/intercorp/uploadtest.php",
+		"/Users/acavalca/Dropbox/TW/TasksAndInfo.txt",
+		"/Users/acavalca/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/acavalca/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/acavalca/Sites/intercorp"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"consol",
+			"'form[id^=form]'",
+			"access_token",
+			"AccessToken",
+			"accessToken",
+			"folder_id",
+			"$(this)",
+			"data.responseText",
+			"response",
+			");\n",
+			"notify",
+			"button",
+			"doUpload",
+			"document",
+			"$('#chklst-id').val()",
+			"#chklst",
+			"numberofdocuments",
+			"formsubmitstatus",
+			"form-resolve",
+			"uploadFiles",
+			"doUpload",
+			"canSubmit",
+			"answer",
+			"Answer",
+			"answer",
+			"resolve",
+			"ChromePhp",
+			"·         ",
+			"newUserEmail",
+			"focusout(function (",
+			"focusout(function ()",
+			"focusout",
+			"alvarovictor",
+			"hasusername",
+			"hasemail",
+			"0",
+			"result",
+			"username",
+			"Username",
+			"username",
+			"({\n				focusout: function (){\n					\n				}\n			});\n",
+			"$('#newUserEmail')",
+			"newUserEmail",
+			"newUsers",
+			"'];",
+			"fetch",
+			"notifyProjectAdmins",
+			"'];\n",
+			"	$users = UserDAO::get_instance()->getUsersByProjectId(64);\n",
+			"PARAM_BOOL",
+			"projectId",
+			"clientid",
+			"generateReturnErrorMessage",
+			"filestyl",
+			"filestylw",
+			"file",
+			"text-align",
+			"center",
+			"displayAlertAndSetFocus",
+			"20M",
+			"upload",
+			"max_size",
+			"OAuthUtils",
+			"access_token",
+			"checklistid",
+			"update",
+			"(message)",
+			"message",
+			"Message",
+			"message",
+			"PDO_CONN_STR",
+			"echo",
+			"formsubmitstatus",
+			"uploadUrl",
+			"button",
+			"success:",
+			"Box_Files_UploadFile ",
+			"Box_Files_UploadFile",
+			"Upload",
+			"';\n",
+			"avictor",
+			"else",
+			"Database error while trying to create the new project",
+			"generateReturnErrorMessage",
+			"data.",
+			"projectName",
+			"reviewSectionClientName",
+			"());",
+			"reviewSectionClientName",
+			"project-name",
+			"$.notify",
+			"navbar-btn-home",
+			"common",
+			"document",
+			"documents",
+			"submit",
+			"form-resolve",
+			"formsubmitstatus",
+			"reviewSectionClientName",
+			"reviewSectionUsers",
+			"reviewSectionClientName",
+			"reviewSectionQuestions",
+			"class=\"review-box\"></div>",
+			"reviewSectionClientName",
+			"reviewSectionProjectName",
+			"reviewSectionClientName",
+			"alter table only proj",
+			"alter table only users",
+			"unique (name",
+			"unique",
+			"client",
+			"echo",
+			"while comm",
+			"<form",
+			"todo",
+			"newUserUsername",
+			"newuser-btn-add",
+			"btn-new-document",
+			"save ",
+			"questions",
+			"addQuestion",
+			"tr",
+			"addQuestion",
+			"addPresetQuestion",
+			"addQuestion",
+			"additionalQuestions",
+			"-question",
+			"btn-new-document"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"checres",
+				"checklist_resolve.php"
+			],
+			[
+				"checlisli",
+				"checklist_list.php"
+			],
+			[
+				"userda",
+				"dao/user_dao.php"
+			],
+			[
+				"boxcre",
+				"util/BoxCredentials.php"
+			],
+			[
+				"home",
+				"home.php"
+			],
+			[
+				"bootstrap-filestyle",
+				"js/bootstrap-filestyle.min.js"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"nav",
+				"inc_navbar.php"
+			],
+			[
+				"userdao",
+				"dao/user_dao.php"
+			],
+			[
+				"checklist",
+				"dao/checklist_dao.php"
+			],
+			[
+				"check",
+				"ws/checklist.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/acavalca/Sites/aulas-css.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 309.0,
+	"status_bar_visible": true
+}
