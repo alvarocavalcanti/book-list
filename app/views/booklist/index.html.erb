@@ -1,0 +1,17 @@
+<div class="row">
+	<div class="col-xs-2">
+		<!-- Spacer -->
+	</div>
+	<div class="col-xs-8">
+		<!-- Content -->
+		<%= form_tag({controller: "books", action: "new"}, method: "get") do %>
+			<div class="col-xs-8">
+		  		<%= text_field_tag :url, nil, placeholder: 'Paste book URL here...', class: 'form-control' %>
+			</div>
+	  		<%= content_tag :button, :type => :submit,:class => 'btn btn-primary' do %>Add It!<% end %>
+		<% end %>
+	</div>
+	<div class="col-xs-2">
+		<!-- Spacer -->
+	</div>
+</div>

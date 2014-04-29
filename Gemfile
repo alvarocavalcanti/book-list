@@ -32,8 +32,13 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'bootstrap-sass', '~> 3.1.1'
+group :development do
+	gem 'rails_layout'
+end
+
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use unicorn as the app server
 # gem 'unicorn'
