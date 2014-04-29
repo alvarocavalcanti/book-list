@@ -9,11 +9,11 @@
 		        this book from being saved:<br>" + @book.errors.full_messages.to_sentence
 			   	flash.now[:alert] = msg.html_safe %>
 	    <% end %>
-		<h1 class="text-center">Add a New Book</h1>
+		<h1 class="text-center">Edit Book</h1>
 		<div class="text-left">
 			<%= form_for @book do |f| %>
 				<h3><%= f.label 'URL' %></h3>
-				<%= f.url_field :url, class: 'form-control input-sm' %>
+				<%= f.url_field :url, {class: 'form-control input-sm', disabled: 'disabled'} %>
 				<h3><%= f.label 'Title' %></h3>
 				<%= f.text_field :title, class: 'form-control input-sm' %>
 				<h3><%= f.label 'Price' %></h3>
@@ -22,7 +22,7 @@
 				<%= f.number_field :price_current, class: 'form-control input-sm' %><br>
 				<h3><%= f.label 'ISBN' %></h3>
 				<%= f.text_field :isbn, class: 'form-control input-sm' %><br>
-				<p><%= f.submit 'Create', class: 'btn btn-primary' %></p>
+				<p><%= f.submit 'Save', class: 'btn btn-primary' %></p>
 			<% end %>
 		</div>
 	</div>

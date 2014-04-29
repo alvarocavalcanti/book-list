@@ -1,20 +1,43 @@
 class BooksController < ApplicationController
 	# http://bit.ly/1hPYNko
+
+	# http://bit.ly/1fpZBlt
 	def new
-		if !params.has_key?(:url) || params[:url].blank?
-			flash[:danger] = "Please provdie a URL."
-			redirect_to home_path
-		end
-		@book = Book.new(search_params)
+		@book = Book.new
+		@book.url = params[:url]
+	end
+
+	def create
+		@book = Book.new(book_params)
+
 		if !@book.save
-			flash[:danger] = "Invalid URL"
-			redirect_to home_path
+			flash[:danger] = "Could not save book."
+			render 'new'
 		end
+		redirect_to @book
+	end
+
+	def update
+		@book = Book.find(params[:id])
+
+		if @book.update(book_params)
+			redirect_to @book
+		else
+			render 'edit'
+		end
+	end
+
+	def show
+		@book = Book.find(params[:id])
+	end
+
+	def edit
+		@book = Book.find(params[:id])
 	end
 
 	private 
 
-	def search_params
-		params.permit(:url)
+	def book_params
+		params.require(:book).permit(:url, :title, :price_initial, :price_current, :isbn)
 	end
 end

@@ -1,0 +1,21 @@
+<div class="row">
+	<div class="col-md-3">
+		<!-- Spacer -->
+	</div>
+	<div class="col-md-6">
+		<!-- Content -->
+		<h1 class="text-center"><%= @book.title %></h1>
+		<div class="text-left">
+			<h3>URL: <%= @book.url %></h3>
+			<h3>Title: <%= @book.title %></h3>
+			<h3>Price Initial: <%= @book.price_initial %></h3>
+			<h3>Price Current: <%= @book.price_current %></h3>
+			<h3>ISBN: <%= @book.isbn %></h3>
+		</div>
+		<%= link_to "Edit", edit_book_path(@book) %>
+	</div>
+	<div class="col-md-3">
+		<!-- Spacer -->
+	</div>
+
+</div>
