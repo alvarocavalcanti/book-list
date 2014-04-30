@@ -16,12 +16,18 @@
 				<%= f.url_field :url, class: 'form-control input-sm' %>
 				<h3><%= f.label 'Title' %></h3>
 				<%= f.text_field :title, class: 'form-control input-sm' %>
+				<h3><%= f.label 'Author' %></h3>
+				<%= f.text_field :author, class: 'form-control input-sm' %>
 				<h3><%= f.label 'Price' %></h3>
 				<%= f.number_field :price_initial, class: 'form-control input-sm' %>
 				<h3><%= f.label 'Price (current)' %></h3>
 				<%= f.number_field :price_current, class: 'form-control input-sm' %><br>
 				<h3><%= f.label 'ISBN' %></h3>
 				<%= f.text_field :isbn, class: 'form-control input-sm' %><br>
+				<h3><%= f.label 'Bought?' %></h3>
+				<%= f.check_box :bought, class: 'form-control input-sm' %><br>
+				<h3><%= f.label 'Read?' %></h3>
+				<%= f.check_box :read, class: 'form-control input-sm' %><br>
 				<p><%= f.submit 'Create', class: 'btn btn-primary' %></p>
 			<% end %>
 		</div>
