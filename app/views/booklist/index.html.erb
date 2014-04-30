@@ -10,6 +10,36 @@
 			</div>
 	  		<%= content_tag :button, :type => :submit,:class => 'btn btn-primary' do %>Add It!<% end %>
 		<% end %>
+		<br>
+		<br>
+		<br>
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Store</th>
+					<th>Current Price</th>
+					<th>Initial Price</th>
+					<th>Bought</th>
+					<th>Read</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				<% @books.each do |book| %>
+				<tr>
+					<td><%= book.title %></td>
+					<td>TBD</td>
+					<td><%= book.price_current %></td>
+					<td><%= book.price_initial %></td>
+					<td><%= book.bought %></td>
+					<td><%= book.read %></td>
+					<td><%= link_to("Edit", edit_book_path(book)) %></td>
+				</tr>
+				<% end %>
+			</tbody>
+		</table>
+
 	</div>
 	<div class="col-xs-2">
 		<!-- Spacer -->
