@@ -19,6 +19,7 @@ Booklist::Application.routes.draw do
 
   post 'books/new'
 
+  get 'books/:id/mark_as_bought' => 'books#mark_as_bought', as: :id
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

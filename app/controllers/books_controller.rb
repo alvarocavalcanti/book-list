@@ -35,9 +35,39 @@ class BooksController < ApplicationController
 		@book = Book.find(params[:id])
 	end
 
+	def mark_as_bought
+		# Duplicated code (see mark_as_uunbought), how can I remove it 'the Rails-way'? Modify the update
+		# method so it receives parameters instead of fetching them from the request, and make a call to it?
+		book = Book.find(params[:id])
+		book.update(bought: true)
+		render nothing: true
+	end
+
+	def mark_as_unbught
+		# Duplciated code, see above
+		book = Book.find(params[:id])
+		book.update(bought: false)
+		render nothing: true
+	end
+
+	def mark_as_read
+		# Duplciated code, see above
+		book = Book.find(params[:id])
+		book.update(read: true)
+		render nothing: true
+	end
+
+	def mark_as_unread
+		# Duplciated code, see above
+		book = Book.find(params[:id])
+		book.update(read: false)
+		render nothing: true
+	end
+
 	private 
 
 	def book_params
 		params.require(:book).permit(:url, :title, :price_initial, :price_current, :isbn, :bought, :read, :author, :user_id)
 	end
+
 end

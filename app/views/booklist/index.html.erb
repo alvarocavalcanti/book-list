@@ -34,7 +34,7 @@
 					<td><%= book.price_initial %></td>
 					<td>
 						<%= form_for(book) do |f| %>
-							<%= f.check_box :bought %>
+							<%= f.check_box :bought, options: {} %>
 						<% end %>
 					</td>
 					<td><%= book.read %></td>
@@ -49,3 +49,5 @@
 		<!-- Spacer -->
 	</div>
 </div>
+<script type="text/javascript">
+</script>
