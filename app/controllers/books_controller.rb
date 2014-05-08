@@ -43,7 +43,7 @@ class BooksController < ApplicationController
 		render nothing: true
 	end
 
-	def mark_as_unbught
+	def mark_as_unbought
 		# Duplciated code, see above
 		book = Book.find(params[:id])
 		book.update(bought: false)

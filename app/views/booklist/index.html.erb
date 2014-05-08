@@ -32,12 +32,16 @@
 					<td>TBD</td>
 					<td class="<%= (book.price_current < book.price_initial) ? 'success':'' %>"><%= book.price_current %></td>
 					<td><%= book.price_initial %></td>
-					<td>
+					<td class="text-center">
 						<%= form_for(book) do |f| %>
-							<%= f.check_box :bought, options: {} %>
+							<%= f.check_box :bought, onclick: 'bookBought_clickHandler(this, '+book.id.to_s+')' %>
 						<% end %>
 					</td>
-					<td><%= book.read %></td>
+					<td class="text-center">
+						<%= form_for(book) do |f| %>
+							<%= f.check_box :read, onclick: 'bookRead_clickHandler(this, '+book.id.to_s+')' %>
+						<% end %>
+					</td>
 					<td><%= link_to("Edit", edit_book_path(book)) %></td>
 				</tr>
 				<% end %>
@@ -50,4 +54,45 @@
 	</div>
 </div>
 <script type="text/javascript">
+<!--
+	function bookBought_clickHandler(checkBox, bookId) {
+		var action = "";
+		if (checkBox.checked) {
+			action = "mark_as_bought"
+		} else {
+			action = "mark_as_unbought"
+		}
+		
+		$.ajax({
+			type: "GET",
+			url: 'books/' + bookId + '/' + action,
+			success: function () {
+				// What shall be here?
+			},
+			error: function () {
+				// What shall be here?
+			}
+		});
+	}
+
+	function bookRead_clickHandler(checkBox, bookId) {
+		var action = "";
+		if (checkBox.checked) {
+			action = "mark_as_read"
+		} else {
+			action = "mark_as_unread"
+		}
+		
+		$.ajax({
+			type: "GET",
+			url: 'books/' + bookId + '/' + action,
+			success: function () {
+				// What shall be here?
+			},
+			error: function () {
+				// What shall be here?
+			}
+		});
+	}
+-->
 </script>

@@ -19,7 +19,10 @@ Booklist::Application.routes.draw do
 
   post 'books/new'
 
-  get 'books/:id/mark_as_bought' => 'books#mark_as_bought', as: :id
+  get 'books/:id/mark_as_bought'    => 'books#mark_as_bought',    as: :mark_as_bought
+  get 'books/:id/mark_as_unbought'  => 'books#mark_as_unbought',  as: :mark_as_unbought
+  get 'books/:id/mark_as_read'      => 'books#mark_as_read',      as: :mark_as_read
+  get 'books/:id/mark_as_unread'    => 'books#mark_as_unread',    as: :mark_as_unread
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
