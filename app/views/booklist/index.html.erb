@@ -30,9 +30,13 @@
 				<tr>
 					<td><%= book.title %></td>
 					<td>TBD</td>
-					<td><%= book.price_current %></td>
+					<td class="<%= (book.price_current < book.price_initial) ? 'success':'' %>"><%= book.price_current %></td>
 					<td><%= book.price_initial %></td>
-					<td><%= book.bought %></td>
+					<td>
+						<%= form_for(book) do |f| %>
+							<%= f.check_box :bought %>
+						<% end %>
+					</td>
 					<td><%= book.read %></td>
 					<td><%= link_to("Edit", edit_book_path(book)) %></td>
 				</tr>
