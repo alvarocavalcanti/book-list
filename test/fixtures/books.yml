@@ -1,15 +1,19 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+monsterhigh:
+  url: http://bit.ly/1iJvgxK
+  title: "Monster High Ghoulfriends Forever"
+  price_initial: 14.99
+  price_current: 10.0
+  isbn: B008PGKGJQ
+  author: Gitty Daneshvari
+  bought: false
+  read: false
 
-one:
-  url: MyString
-  title: MyString
-  price_initial: 9.99
-  price_current: 9.99
-  isbn: MyString
-
-two:
-  url: MyString
-  title: MyString
-  price_initial: 9.99
-  price_current: 9.99
-  isbn: MyString
+contosdefadas:
+  url: http://bit.ly/1iJrjt7
+  title: Contos de Fadas
+  price_initial: 12.0
+  price_current: 15.0
+  isbn: B00935G2LE
+  author: Grimm Brothers
+  bought: true
+  read: false
