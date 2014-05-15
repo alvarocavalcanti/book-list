@@ -1,20 +1,16 @@
 require 'test_helper'
 
 class BookTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
-
   setup do
   	@new_book = Book.new
   	@new_book.url = "http://www.url.com"
   	@new_book.title = "A Random Title"
-	@new_book.price_initial = 0.0
-	@new_book.price_current = 0.0
-	@new_book.isbn = "01010101010"
-	@new_book.author = "John Doe"
-	@new_book.bought = false
-	@new_book.read = false
+  	@new_book.price_initial = 0.0
+  	@new_book.price_current = 0.0
+  	@new_book.isbn = "01010101010"
+  	@new_book.author = "John Doe"
+  	@new_book.bought = false
+  	@new_book.read = false
   end
 
   test "should not save an empty book" do
@@ -33,4 +29,5 @@ class BookTest < ActiveSupport::TestCase
 
   	assert_not @new_book.save, "Saved a book with an existing ISBN"
   end
+
 end

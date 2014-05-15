@@ -4,7 +4,7 @@ class BooksController < ApplicationController
 	# http://bit.ly/1fpZBlt
 	def new
 		@book = Book.new
-		@book.url = params[:url]
+		@book.url = new_book_params
 	end
 
 	def create
@@ -13,14 +13,16 @@ class BooksController < ApplicationController
 		if !@book.save
 			flash[:danger] = "Could not save book."
 			render 'new'
+		else
+			redirect_to @book
 		end
-		redirect_to @book
 	end
 
 	def update
+		params = book_params
 		@book = Book.find(params[:id])
 
-		if @book.update(book_params)
+		if @book.update(params)
 			redirect_to @book
 		else
 			render 'edit'
@@ -67,7 +69,11 @@ class BooksController < ApplicationController
 	private 
 
 	def book_params
-		params.require(:book).permit(:url, :title, :price_initial, :price_current, :isbn, :bought, :read, :author, :user_id)
+		params.require(:book).permit(:url, :title, :price_initial, :price_current, :isbn, :bought, :read, :author, :user_id, :id)
+	end
+
+	def new_book_params
+		params.require(:url)
 	end
 
 end

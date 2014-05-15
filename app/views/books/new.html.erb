@@ -28,7 +28,6 @@
 				<%= f.check_box :bought, class: 'form-control input-sm' %><br>
 				<h3><%= f.label 'Read?' %></h3>
 				<%= f.check_box :read, class: 'form-control input-sm' %><br>
-				<%= f.hidden_field :user_id, session[:userid] %><br>
 				<p><%= f.submit 'Create', class: 'btn btn-primary' %></p>
 			<% end %>
 		</div>
