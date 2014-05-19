@@ -20,6 +20,7 @@ class BooksControllerTest < ActionController::TestCase
 
 		@book_contodefadas = 
 		{
+			id: 11,
 			book: {
 				url: books(:contosdefadas).url, 
 				title: books(:contosdefadas).title, 
@@ -73,19 +74,15 @@ class BooksControllerTest < ActionController::TestCase
 	end
 
 	test "should update a book" do
-		put :update, {id: '11', book: {
-				url: books(:contosdefadas).url, 
-				title: 'new title', 
-				price_initial: books(:contosdefadas).price_initial, 
-				price_current: books(:contosdefadas).price_current,
-				isbn: books(:contosdefadas).isbn, 
-				bought: books(:contosdefadas).bought, 
-				read: books(:contosdefadas).read, 
-				author: books(:contosdefadas).author, 
-				user_id: books(:contosdefadas).user_id,
-				id: '11'
-			}}, session_dummy	
+		@book_contodefadas[:book][:title] = 'new title'
+		put :update, @book_contodefadas, session_dummy	
 		assert_equal 'new title', assigns(:book).title
+	end
+
+	test "should render edit page when not able to update" do
+		@book_contodefadas[:book][:title] = ''
+		put :update, @book_contodefadas, session_dummy	
+		assert_template :edit
 	end
 
 end
